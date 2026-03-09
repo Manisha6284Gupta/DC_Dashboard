@@ -6,7 +6,8 @@ dotenv.config();
 const db = mysql.createPool({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
-  password : "$$#1234abc@123",
+  password:"$$#1234abc@123",
+  
 
 
   
@@ -31,3 +32,46 @@ db.getConnection((err, connection) => {
 });
 
 export default db.promise();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import mongoose from "mongoose";
+// import dotenv from "dotenv";
+
+// dotenv.config();
+
+// const connectDB = async () => {
+//   try {
+//     await mongoose.connect(process.env.MONGO_URI);
+//     console.log(" MongoDB connected successfully");
+//   } catch (error) {
+//     console.error(" MongoDB connection failed:", error.message);
+//     process.exit(1);
+//   }
+// };
+
+// export default connectDB;

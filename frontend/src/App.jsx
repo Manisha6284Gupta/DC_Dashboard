@@ -8,6 +8,9 @@ import RepresentData from "./components/Menrega/RepresentData";
 // import MnregaDashboard from "./pages/MnregaDashboard";
 import MnregaDashboard from "./pages/MnregaDashboard";
 import Dashboard from "./components/Menrega/Dashboard";
+import DcDashboardMainPage from "./pages/dcDashboardPage/dcMainPage/DcDashboardMainPage";
+
+
 function App() {
   return (
     <Router>
@@ -16,6 +19,7 @@ function App() {
         {/* <Route path="/mnrega-dashboard" element={<RepresentData />} /> */}
         <Route path="/mnrega-dashboard" element={<MnregaDashboard />} />
         <Route path="/dashboard/:departmentId" element={<MnregaDashboard />} />
+         <Route path="/dashboard" element={<DcDashboardMainPage />} />
 
         <Route path="/login" element={<LoginPage/>}/>
          <Route path="/dashboard-overview" element={<Dashboard/>}/>
