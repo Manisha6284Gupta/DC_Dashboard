@@ -9,7 +9,8 @@
 - 🎥 1-on-1 Video Interview Rooms
 - 🧭 Dashboard with Live Stats
 - 🔊 Mic & Camera Toggle, Screen Sharing & Recording
-- 💬 Real-time Chat Messaging
+- 💬 Real-time Chat Messaging<img width="1337" height="632" alt="dc_dashboard" src="https://github.com/user-attachments/assets/7c12d79a-d47c-4faa-9995-d8f92677da0d" />
+
 - ⚙️ Secure Code Execution in Isolated Environment
 - 🎯 Auto Feedback — Success / Fail based on test cases
 - 🎉 Confetti on Success + Notifications on Fail
